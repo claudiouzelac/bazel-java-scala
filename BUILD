@@ -23,10 +23,6 @@ scala_library(
 java_test(
     name = "JavaLibraryTest",
     srcs = glob(["**/*Test.java"]),
-#    srcs = [
-#        "//src/test/java/com/example/LibraryTest.java",
-#        "//src/main/java/com/example/Library.java"
-#    ],
     size = "small",
     test_class = "com.example.LibraryTest",
     deps = [
