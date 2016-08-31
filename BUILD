@@ -20,6 +20,17 @@ scala_library(
     ]
 )
 
+java_test(
+    name = "JavaLibraryTest",
+    srcs = glob(["**/*Test.java"]),
+    size = "small",
+    test_class = "com.example.LibraryTest",
+    deps = [
+        "//external:junit",
+        ":JavaDependency",
+    ],
+)
+
 java_library(
     name = "JavaDependency",
     srcs = glob(["**/*.java"]),
@@ -28,6 +39,7 @@ java_library(
       # defined in the top-level WORKSPACE file.        
       "//external:apache_commons_lang3",        
       "//external:guava",
+      # TODO: Separate the java paths to remove this dependency
       "//external:junit",
     ]
 )

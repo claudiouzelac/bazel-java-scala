@@ -41,6 +41,12 @@ Want to create some bad-ass project dependency diagrams?  Install `graphiz` (OSX
   bazel run //:ScalaMain
   ``
 
+## Running the unit tests
+
+  ``
+  bazel test //...
+  ``
+
 ## Author(s)
 
 Stewart Henderson <henderson.geoffrey@gmail.com>
