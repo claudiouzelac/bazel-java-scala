@@ -23,7 +23,7 @@ Scala and Java codebase.  This project creates three items:
 
 ## Building
 
-  ``bash
+  ``
   bazel build //...
   ``
 
