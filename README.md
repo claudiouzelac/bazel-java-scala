@@ -35,6 +35,12 @@ Want to create some bad-ass project dependency diagrams?  Install `graphiz` (OSX
   ./scripts/dependency-graph.sh
   ``
 
+## Running the application
+
+  ``
+  bazel run //:ScalaMain
+  ``
+
 ## Author(s)
 
 Stewart Henderson <henderson.geoffrey@gmail.com>

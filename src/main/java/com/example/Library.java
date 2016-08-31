@@ -1,5 +1,5 @@
 package com.example;
 
 public class Library {
-    public static String name = "Library";
+    public static String Hello = "Hello";
 }

@@ -1,5 +1,5 @@
-class Main {
-  def main(args: Array[String]): Unit = {
-    println("Hello world")
-  }
+package com.example
+
+object Main extends App {
+  println(Library.Hello)
 }
