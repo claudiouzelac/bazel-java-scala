@@ -23,8 +23,16 @@ Scala and Java codebase.  This project creates three items:
 
 ## Building
 
-  ``bash
+  ``
   bazel build //...
+  ``
+
+## Dependency Graphs
+
+Want to create some bad-ass project dependency diagrams?  Install `graphiz` (OSX: `brew install graphviz`)
+
+  ``
+  ./scripts/dependency-graph.sh
   ``
 
 ## Author(s)
