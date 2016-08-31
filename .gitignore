@@ -1,0 +1,8 @@
+# IntelliJ
+
+.idea/
+
+# Bazel files
+
+.blaze/
+bazel-*

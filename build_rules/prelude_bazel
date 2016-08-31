@@ -1,0 +1,3 @@
+# NOTE: You can place rules in this file that you want loaded before you build start.
+
+load("@io_bazel_rules_scala//scala:scala.bzl", "scala_library", "scala_binary", "scala_test")
