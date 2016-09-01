@@ -1,4 +1,6 @@
-package com.example
+package com.example.app
+
+import com.example.Library
 /**
   * Trivial Scala Main application that references the Library class that we make in Java
   */
