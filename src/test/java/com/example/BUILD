@@ -8,6 +8,5 @@ java_test(
     deps = [
         "//external:junit",
         "//src/main/java/com/example:JavaDependency"
-#        ":JavaDependency",
     ],
 )
